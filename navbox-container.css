@@ -1,0 +1,36 @@
+.navbox-container {
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    top: 79%;
+    border: 1px solid lightgray;
+}
+a {
+    text-decoration: none;
+    width: 100%;
+    display: flex;
+    color: black;
+}
+.nav-box {
+    width: 100%;
+    display: inherit;
+    align-items: center;
+    border-right: 1px dotted lightgray  ;
+}
+.nav-box img {
+    width: 42px;
+    height: 42px;
+    margin: 0 15px 0 15px;
+}
+.nav-box p {
+    text-decoration: none;
+    margin: 0;
+    display: flex;
+    font-size: 0.8em;
+    display: flex;
+}
+a:hover {
+    color:#e7000a;
+}
