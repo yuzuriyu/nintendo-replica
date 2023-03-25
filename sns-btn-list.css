@@ -1,0 +1,74 @@
+.sns-btn-list {
+    width: 100%;
+    height: 75px;
+    position: relative;
+    top: 51%;
+    display: flex;
+    justify-content: center;
+    
+}
+.yt-btn {
+    width: 550px;
+    height: 100%;
+    border: 1px solid  lightgray;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 15px;
+}
+.yt-btn img {
+    width: 60x;
+    height: 60px;
+
+}
+.yt-btn p {
+    font-size: 1.5em;
+}
+.yt-btn button {
+    color: white;
+    background-color: #e7000a;
+    border: none;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+.fb-btn {
+    width: 550px;
+    height: 100%;
+    border: 1px solid  lightgray;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 15px;
+}
+.fb-btn img {
+    width: 60px;
+    height: 60px;
+}
+.fb-btn p {
+    font-size: 1.5em;
+}
+.fb-btn button {
+    color: white;
+    background-color: #00c3e3;
+    border: none;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+.yt-link-wrapper {
+    text-decoration: none;
+    color: black;
+}
+.yt-link-wrapper:hover {
+    color: #e7000a;
+    border: 2px solid #e7000a;
+}
+.fb-link-wrapper {
+    text-decoration: none;
+    color: black;
+}
+.fb-link-wrapper:hover {
+    color: #00c3e3;
+    border: 2px solid #00c3e3;
+}
