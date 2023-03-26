@@ -1,0 +1,27 @@
+.news {
+    position: relative;
+    top: 57.5%;
+    left: 13%;
+    font-size: 1.3em;
+    margin: 0;
+    display: flex;
+    font-weight: bolder;
+    height: 30px;
+    color: black;
+}
+.news-line {
+    width: 74%;
+    height: 2px;
+    border-bottom: 2px solid lightgray;
+    position: relative;
+    top: 58%;
+    margin: auto;
+}
+.red-line {
+    width: 150px;
+    height: 2px;
+    border-bottom: 3px solid #e7000a;
+    position: absolute;
+    top: 154.5%;
+    left: 13%;
+}

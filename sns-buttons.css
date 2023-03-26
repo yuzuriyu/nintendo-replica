@@ -1,4 +1,4 @@
-.sns-btn-list {
+.sns-btns {
     width: 100%;
     height: 75px;
     position: relative;
@@ -7,32 +7,29 @@
     justify-content: center;
     
 }
-.yt-link-wrapper {
+.youtube-button {
     text-decoration: none;
     color: black;
     width: 545px;
-    margin-right: 15px;
-}
-.yt-link-wrapper:hover {
-    color: #e7000a;
-    border: 2px solid #e7000a;
-}
-.yt-btn {
-    width: 100%;
     height: 100%;
-    border: 1px solid  lightgray;
+    margin-right: 15px;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    border: 1px solid  lightgray;
 }
-.yt-btn img {
+.youtube-button:hover {
+    color: #e7000a;
+    border: 2px solid #e7000a;
+}
+.youtube-button img {
     width: 60x;
     height: 60px;
 }
-.yt-btn p {
+.youtube-button p {
     font-size: 1.5em;
 }
-.yt-btn button {
+.youtube-button button {
     color: white;
     background-color: #e7000a;
     border: none;
@@ -40,33 +37,29 @@
     width: 20px;
     height: 20px;
 }
-.fb-link-wrapper {
+.facebook-button {
     text-decoration: none;
     color: black;
     width: 545px;
     margin-left: 15px;
-}
-.fb-link-wrapper:hover {
-    color: #00c3e3;
-    border: 2px solid #00c3e3;
-}
-.fb-btn {
-    width: 100%;
-    height: 100%;
-    border: 1px solid  lightgray;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    
+    height: 100%;
+    border: 1px solid  lightgray;
 }
-.fb-btn img {
+.facebook-button:hover {
+    color: #00c3e3;
+    border: 2px solid #00c3e3;
+}
+.facebook-button img {
     width: 60px;
     height: 60px;
 }
-.fb-btn p {
+.facebook-button p {
     font-size: 1.5em;
 }
-.fb-btn button {
+.facebook-button button {
     color: white;
     background-color: #00c3e3;
     border: none;
