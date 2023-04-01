@@ -22,7 +22,7 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 30px;
-    padding-top: 30px;
+    padding: 30px 0 50px 0;
 }
 .game-box {
     text-decoration: none;
@@ -60,3 +60,34 @@
     height: 15px;
     font-size: 8px;
 }
+.more-games {
+    display: block;
+    background-color: #e7000a;
+    color: white;
+    font-size: 0.8em;
+    font-weight: bold;
+    border: 2px solid #e7000a;
+    width: 190px;
+    height: 35px;
+    margin: auto;
+    text-decoration: none;
+}
+.more-games:hover {
+    background-color: white;
+    color: #e7000a;
+}
+.more-nav {
+    display: flex;
+    justify-content: center;
+}
+.schedule {
+    font-size: 0.9em;
+    padding: 28px;
+    font-weight: bold;
+}
+.mobile-games {
+    padding: 28px;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+

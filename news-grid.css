@@ -60,6 +60,9 @@
     font-size: 0.8em;
     color: gray;
 }
+.link-wrapper {
+    text-decoration: none;
+}
 .more-news {
     background-color: #e7000a;
     color: white;
@@ -70,6 +73,7 @@
     height: 35px;
     display: block;
     margin: auto;
+    text-decoration: none;
 }
 .more-news:hover {
     background-color: white;

@@ -1,0 +1,153 @@
+.redline-3 {
+    width: 100%;
+    height: 100px;
+    background-color: #e7000a;
+}
+.return-top img {
+    width: 110px;
+}
+.return-top {
+    display: flex;
+    width: 75%;
+    height: 100%;
+    margin: auto;
+    align-items: center;
+}
+.footer-links {
+    display: flex;
+    justify-content: space-around;
+    width: 75%;
+    margin: auto;
+    height: 350px;
+}
+.hardware {
+    padding-top: 25px;
+}
+.hardware a {
+    text-decoration: none;
+    color: rgb(128, 128, 128);
+    font-size: 0.875em;
+}
+.hardware a:hover {
+    color: #e7000a;
+}
+.hardware ul {
+    padding: 0;
+}
+.hardware p {
+    color: rgb(60, 60, 60);
+    border-left: 5px solid lightgray;
+    padding-left: 5px;
+}
+.gaming {
+    padding-top: 25px;
+}
+.gaming a {
+    text-decoration: none;
+    color: rgb(128, 128, 128);
+    font-size: 0.875em;
+}
+.gaming a:hover {
+    color: #e7000a;
+}
+.gaming ul {
+    padding: 0;
+}
+.gaming p {
+    color: rgb(60, 60, 60);
+    border-left: 5px solid lightgray;
+    padding-left: 5px;
+}
+.updates {
+    padding-top: 25px;
+}
+.updates a {
+    text-decoration: none;
+    color: rgb(128, 128, 128);
+    font-size: 0.875em;
+}
+.updates a:hover{
+    color: #e7000a;
+}
+.updates ul {
+    padding: 0;
+}
+.updates p {
+    color: rgb(60, 60, 60);
+    border-left: 5px solid lightgray;
+    padding-left: 5px;
+}
+.support {
+    padding-top: 25px;
+}
+.support a {
+    text-decoration: none;
+    color: rgb(128, 128, 128);
+    font-size: 0.875em;
+}
+.support a:hover {
+    color: #e7000a;
+}
+.support ul {
+    padding: 0%;
+}
+.support p {
+    color: rgb(60, 60, 60);
+     border-left: 5px solid lightgray;
+    padding-left: 5px;
+}
+.sns-footer {
+    padding-top: 25px;
+}
+.sns-wrapper {
+    display: flex;
+    border-top: 1px solid lightgray;
+    padding: 10px;
+    align-items: center;
+}
+.sns-wrapper img {
+    width: 50px;
+}
+.sns-wrapper p {
+    font-size: 0.7em;
+    color: rgb(60, 60, 60);
+    font-weight: bold;
+    margin-left: 10px;
+}
+.sns-wrapper p:hover {
+    color: #e7000a;
+}
+.sites {
+    width: 100%;
+    display: flex;
+    border-top: 1px solid lightgray;
+    height: 50px;
+    align-items: center;
+}
+.credits {
+    flex: 1;
+    margin-left: 30px;
+    font-size: 0.7em;
+    color: rgb(60, 60, 60);
+}
+.site-box {
+    text-decoration: none;
+    color: rgb(128, 128, 128);
+    font-size: 0.7em;
+    margin-right: 25px;
+    padding: 0 10px 0 10px;
+}
+.site-box:hover {
+    color: rgb(60, 60, 60);
+}
+.global-box {
+    text-decoration: none;
+    color: rgb(128, 128, 128);
+    font-size: 0.7em;
+    margin-right: 25px;
+    background-color: rgb(230, 230, 230);
+    padding: 0 10px 0 10px;
+}
+.global-box:hover {
+    color: rgb(60, 60, 60);
+}
