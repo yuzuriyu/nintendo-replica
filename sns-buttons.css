@@ -1,16 +1,16 @@
 .sns-btns {
-    width: 100%;
+    width: 75%;
+    margin: auto;
     height: 75px;
-    position: relative;
-    top: 51%;
+    bottom: 10px;
     display: flex;
     justify-content: center;
-    
+    padding-top: 50px;  
 }
 .youtube-button {
     text-decoration: none;
     color: black;
-    width: 545px;
+    width: 50%;
     height: 100%;
     margin-right: 15px;
     display: flex;
@@ -40,7 +40,7 @@
 .facebook-button {
     text-decoration: none;
     color: black;
-    width: 545px;
+    width: 50%;
     margin-left: 15px;
     display: flex;
     justify-content: space-around;

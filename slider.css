@@ -1,18 +1,20 @@
 .slideshow {
     position: relative;
-    top: 75px;
+    width: 100%;
+    height: 535px;
 }
 .slides {
     display: flex;
 }
 .slides img{
     width: 100%;
-    height: 535px;
+    height: 100%;
     position: absolute;
 }
 .slide-buttons {
     position: absolute;
-    transform: translateY(210px);
+    transform: translateY(-50%);
+    top: 50%;
     justify-content: space-between;
     width: 100%;
     display: flex;

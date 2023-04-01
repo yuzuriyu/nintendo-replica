@@ -1,6 +1,8 @@
 .first-touch {
-    position: relative;
-    top: 54%;
     display: flex;
     justify-content: center;
+    padding-top: 40px;
+}
+.first-touch img {
+    width: 75%;
 }
