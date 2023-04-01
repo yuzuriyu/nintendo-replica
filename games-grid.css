@@ -1,0 +1,62 @@
+.games {
+    font-size: 1.3em;
+    font-weight: bold;
+    width: 75%;
+    margin: auto;
+    padding: 60px 0 25px 0;
+
+}
+.games-line {
+    border-top: 1px solid lightgray;
+    width: 75%;
+    height: 2px;
+    margin: auto;
+}
+.redline-2 {
+    border-top: 2px solid #e7000a;
+    width: 225px;
+}
+.grid-2 {
+    width: 75%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    padding-top: 30px;
+}
+.game-box {
+    text-decoration: none;
+    color: black;
+}
+.game-box img {
+    width: 100%;
+}
+.game-box h6 {
+    font-size: 0.9em;
+    margin: 8px 0 20px 0;
+    height: 35px;
+}
+.game-box p {
+    font-size: 0.8em;
+    font-weight: bold;
+    color: gray;
+}
+.game-box span {
+    font-size: 0.6em;
+    color: gray;
+}
+.brand-section {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid lightgrey;
+    padding-bottom: 15px;
+}
+.brand-section button {
+    color: white;
+    background-color: #e7000a;
+    border: none;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    font-size: 8px;
+}

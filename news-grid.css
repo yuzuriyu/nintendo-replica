@@ -27,12 +27,18 @@
     gap: 30px;
     padding-bottom: 50px;
 }
+.grid-box {
+    text-decoration: none;
+    color: black;
+}
 .grid-box img {
     width: 100%;
 }
 .grid-box p {
     font-size: 1em;
     font-weight: bold;
+    margin: 8px 0 20px 0;
+    height: 35px;
 }
 .date-section {
     display: flex;
@@ -52,6 +58,7 @@
 .date-section p {
     margin: 0;
     font-size: 0.8em;
+    color: gray;
 }
 .more-news {
     background-color: #e7000a;
