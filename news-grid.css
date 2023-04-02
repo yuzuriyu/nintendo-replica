@@ -81,7 +81,19 @@
     background-color: white;
     color: #e7000a;
 }
-.more-news .right-arrow {
-    width: 15px;
-    margin-right: 10px;
+.more-news svg {
+    margin-right: 5px;
 }
+.more-news svg path:nth-of-type(1) {
+    fill: white;
+}
+.more-news:hover svg path:nth-of-type(1) {
+    fill: #e7000a;
+}
+.more-news svg path:nth-of-type(2) {
+    fill: #e7000a;
+}
+.more-news:hover svg path:nth-of-type(2) {
+    fill: white;
+}
+

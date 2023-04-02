@@ -18,6 +18,10 @@
     width: 20px;
     border-left: 1px dotted lightgray;
     padding: 20px;
+    cursor: pointer;
+}
+.return-top .up-arrow:hover {
+    opacity: 0.7;
 }
 .footer-links {
     display: flex;
@@ -110,6 +114,8 @@
     border-top: 1px solid lightgray;
     padding: 10px;
     align-items: center;
+    text-decoration: none;
+    color: black;
 }
 .sns-wrapper img {
     width: 50px;
@@ -139,8 +145,8 @@
     font-weight: 100;
     margin: 0 0 0 5px;
 }
-.usa .right-arrow {
-    width: 15px;
+.usa svg path:nth-of-type(1) {
+    fill: #c13584;
 }
 .japan {
     display: flex;
@@ -150,8 +156,8 @@
     font-weight: 100;
     margin: 0 0 0 5px;
 }
-.japan .right-arrow {
-    width: 15px;
+.japan svg path:nth-of-type(1) {
+    fill: #c13584;
 }
 .sites {
     width: 100%;
@@ -178,10 +184,13 @@
 }
 .site-wrapper {
     display: flex;
+    align-items: center;
 }
-.site-wrapper .right-arrow {
-    width: 15px;
+.site-wrapper svg {
     margin-right: 5px;
+}
+.site-wrapper svg path:nth-of-type(1) {
+    fill: rgb(140, 140, 140);
 }
 .global-box {
     text-decoration: none;
@@ -190,10 +199,9 @@
     margin-right: 25px;
     background-color: rgb(230, 230, 230);
     padding: 0 10px 0 10px;
+    display: flex;
+    align-items: center;
 }
 .global-box:hover {
     color: rgb(60, 60, 60);
-}
-.global-box .right-arrow {
-    width: 15px;
 }

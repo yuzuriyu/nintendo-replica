@@ -29,9 +29,6 @@
 .youtube-button p {
     font-size: 1.5em;
 }
-.youtube-button .right-arrow {
-    width: 20px;
-}
 .facebook-button {
     text-decoration: none;
     color: black;
@@ -54,6 +51,6 @@
 .facebook-button p {
     font-size: 1.5em;
 }
-.facebook-button .right-arrow {
-    width: 20px;
+.facebook-button svg path:nth-of-type(1) {
+    fill: #00c3e3;
 }
