@@ -12,6 +12,12 @@
     height: 100%;
     margin: auto;
     align-items: center;
+    justify-content: space-between;
+}
+.return-top .up-arrow {
+    width: 20px;
+    border-left: 1px dotted lightgray;
+    padding: 20px;
 }
 .footer-links {
     display: flex;
@@ -117,6 +123,36 @@
 .sns-wrapper p:hover {
     color: #e7000a;
 }
+.instagram {
+    display: flex;
+    padding-right: 20px;
+}
+.instagram p {
+    color: #c13584;
+}
+.usa {
+    display: flex;
+    font-size: 0.9em;
+    margin-bottom: 8px;
+}
+.usa p {
+    font-weight: 100;
+    margin: 0 0 0 5px;
+}
+.usa .right-arrow {
+    width: 15px;
+}
+.japan {
+    display: flex;
+    font-size: 0.9em;
+}
+.japan p {
+    font-weight: 100;
+    margin: 0 0 0 5px;
+}
+.japan .right-arrow {
+    width: 15px;
+}
 .sites {
     width: 100%;
     display: flex;
@@ -140,6 +176,13 @@
 .site-box:hover {
     color: rgb(60, 60, 60);
 }
+.site-wrapper {
+    display: flex;
+}
+.site-wrapper .right-arrow {
+    width: 15px;
+    margin-right: 5px;
+}
 .global-box {
     text-decoration: none;
     color: rgb(128, 128, 128);
@@ -150,4 +193,7 @@
 }
 .global-box:hover {
     color: rgb(60, 60, 60);
+}
+.global-box .right-arrow {
+    width: 15px;
 }

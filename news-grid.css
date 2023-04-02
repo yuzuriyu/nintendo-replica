@@ -30,9 +30,14 @@
 .grid-box {
     text-decoration: none;
     color: black;
+    overflow: hidden;
 }
 .grid-box img {
     width: 100%;
+    transition: transform .5s ease;
+}
+.grid-box img:hover {
+    opacity: 0.7;
 }
 .grid-box p {
     font-size: 1em;
@@ -46,36 +51,37 @@
     border-bottom: 1px solid lightgray;
     padding-bottom: 20px;
 }
-.date-section button {
-    color: white;
-    background-color: #e7000a;
-    border: none;
-    border-radius: 50%;
+.date-section .right-arrow {
     width: 15px;
-    height: 15px;
-    font-size: 8px;
+    margin: 0;   
+}
+.date-section .right-arrow:hover {
+    opacity: 1;
 }
 .date-section p {
     margin: 0;
     font-size: 0.8em;
     color: gray;
-}
-.link-wrapper {
-    text-decoration: none;
-}
+}   
 .more-news {
     background-color: #e7000a;
     color: white;
     font-size: 0.8em;
     font-weight: bold;
     border: 2px solid #e7000a;
-    width: 190px;
+    width: 200px;
     height: 35px;
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: auto;
     text-decoration: none;
 }
 .more-news:hover {
     background-color: white;
     color: #e7000a;
+}
+.more-news .right-arrow {
+    width: 15px;
+    margin-right: 10px;
 }

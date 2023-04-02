@@ -28,8 +28,18 @@
     text-decoration: none;
     color: black;
 }
+.game-box:hover {
+    color: #e7000a;
+}
+.image-wrapper {
+    overflow: hidden;
+}
 .game-box img {
     width: 100%;
+    transition: transform 0.5s ease;
+}
+.game-box img:hover {
+    transform: scale(1.1);
 }
 .game-box h6 {
     font-size: 0.9em;
@@ -51,23 +61,19 @@
     border-bottom: 1px solid lightgrey;
     padding-bottom: 15px;
 }
-.brand-section button {
-    color: white;
-    background-color: #e7000a;
-    border: none;
-    border-radius: 50%;
+.brand-section .right-arrow {
     width: 15px;
-    height: 15px;
-    font-size: 8px;
 }
 .more-games {
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #e7000a;
     color: white;
     font-size: 0.8em;
     font-weight: bold;
     border: 2px solid #e7000a;
-    width: 190px;
+    width: 200px;
     height: 35px;
     margin: auto;
     text-decoration: none;
@@ -75,6 +81,10 @@
 .more-games:hover {
     background-color: white;
     color: #e7000a;
+}
+.more-games .right-arrow {
+    width: 15px;
+    margin-right: 10px;
 }
 .more-nav {
     display: flex;
@@ -84,10 +94,24 @@
     font-size: 0.9em;
     padding: 28px;
     font-weight: bold;
+    display: flex;
+    align-items: center;
 }
 .mobile-games {
     padding: 28px;
     font-weight: bold;
     font-size: 0.9em;
+    display: flex;
+    align-items: center;
+}
+.schedule .right-arrow {
+    width: 15px;
+    height: 15px;
+    margin-left: 15px;
+}
+.mobile-games .right-arrow {
+    width: 15px;
+    height: 15px;
+    margin-left: 15px;
 }
 

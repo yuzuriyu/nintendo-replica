@@ -29,13 +29,8 @@
 .youtube-button p {
     font-size: 1.5em;
 }
-.youtube-button button {
-    color: white;
-    background-color: #e7000a;
-    border: none;
-    border-radius: 50%;
+.youtube-button .right-arrow {
     width: 20px;
-    height: 20px;
 }
 .facebook-button {
     text-decoration: none;
@@ -59,11 +54,6 @@
 .facebook-button p {
     font-size: 1.5em;
 }
-.facebook-button button {
-    color: white;
-    background-color: #00c3e3;
-    border: none;
-    border-radius: 50%;
+.facebook-button .right-arrow {
     width: 20px;
-    height: 20px;
 }
