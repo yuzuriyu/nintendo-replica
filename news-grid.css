@@ -6,6 +6,7 @@
     padding-top: 80px;
     margin: auto;
 }
+
 .news-line {
     width: 75%;
     height: 2px;
@@ -13,11 +14,13 @@
     margin: auto;
     padding-top: 20px;
 }
+
 .red-line {
     width: 150px;
     height: 2px;
     border-bottom: 3px solid #e7000a;
 }
+
 .grid {
     padding-top: 40px;
     width: 75%;
@@ -27,42 +30,51 @@
     gap: 30px;
     padding-bottom: 50px;
 }
+
 .grid-box {
     text-decoration: none;
     color: black;
     overflow: hidden;
 }
+
 .grid-box img {
     width: 100%;
     transition: transform .5s ease;
 }
-.grid-box img:hover {
+
+.grid-box:hover img {
     opacity: 0.7;
 }
+
 .grid-box p {
     font-size: 1em;
     font-weight: bold;
     margin: 8px 0 20px 0;
     height: 35px;
 }
+
 .date-section {
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid lightgray;
     padding-bottom: 20px;
 }
+
 .date-section .right-arrow {
     width: 15px;
     margin: 0;   
 }
+
 .date-section .right-arrow:hover {
     opacity: 1;
 }
+
 .date-section p {
     margin: 0;
     font-size: 0.8em;
     color: gray;
 }   
+
 .more-news {
     background-color: #e7000a;
     color: white;
@@ -77,23 +89,28 @@
     margin: auto;
     text-decoration: none;
 }
+
 .more-news:hover {
     background-color: white;
     color: #e7000a;
 }
+
 .more-news svg {
     margin-right: 5px;
 }
+
 .more-news svg path:nth-of-type(1) {
     fill: white;
 }
+
 .more-news:hover svg path:nth-of-type(1) {
     fill: #e7000a;
 }
+
 .more-news svg path:nth-of-type(2) {
     fill: #e7000a;
 }
+
 .more-news:hover svg path:nth-of-type(2) {
     fill: white;
 }
-

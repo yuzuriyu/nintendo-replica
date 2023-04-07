@@ -4,6 +4,7 @@ header {
     display: flex;
     border: solid 1px lightgray;
 }
+
 .logo-wrapper {
     background-color: #e7000a;
     width: 15%;
@@ -12,36 +13,50 @@ header {
     align-items: center;
     justify-content: center;
 }
+
 .logo-wrapper img {
     width: 120px;
 }
+
 .navbar {
     display: flex;
     flex: 1;
     justify-content: space-around;
     align-items: center;
 }
-.navbar ul {
-    padding-left: 5px;
-}
-.navbar ul a {
-    text-decoration: none;
-    color: rgb(60, 60, 60);
-    padding-left: 0;
-    font-size: 1.1em;
-}
+
 .header-box {
     display: flex;
     align-items: center;
 }
+
 .header-box:hover {
-    color: #e7000a;
     border-bottom: 5px solid #e7000a;
 }
-.header-box img {
-    width: 16px;
-    height: 16px;
+
+.header-box:hover svg polygon {
+    fill: #e7000a;
 }
+
+.header-box:hover svg path {
+    fill: #e7000a;
+}
+
+.header-box ul {
+    padding-left: 5px;
+}
+
+.header-box ul a {
+    text-decoration: none;
+    color: rgb(60, 60, 60);
+    padding-left: 0;
+    font-size: 1em;
+}
+
+.header-box:hover ul a {
+    color: #e7000a;
+}
+
 .search-box {
     width: 6%;
     height: 98%;
@@ -52,15 +67,18 @@ header {
     position: relative;
     color: black;
 }
+
 .search-box:hover {
     color: #e7000a;
 }
+
 .search-box p {
     font-size: 0.8em;
     margin: 0;
     position: absolute;
     bottom: 10px;
 }
+
 .search-box img {
     width: 22px;
     margin-bottom: 12px;

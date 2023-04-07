@@ -7,6 +7,7 @@
     justify-content: center;
     padding-top: 50px;  
 }
+
 .youtube-button {
     text-decoration: none;
     color: black;
@@ -18,17 +19,21 @@
     align-items: center;
     border: 1px solid  lightgray;
 }
+
 .youtube-button:hover {
     color: #e7000a;
     border: 2px solid #e7000a;
 }
+
 .youtube-button img {
     width: 60x;
     height: 60px;
 }
+
 .youtube-button p {
     font-size: 1.5em;
 }
+
 .facebook-button {
     text-decoration: none;
     color: black;
@@ -40,17 +45,21 @@
     height: 100%;
     border: 1px solid  lightgray;
 }
+
 .facebook-button:hover {
     color: #00c3e3;
     border: 2px solid #00c3e3;
 }
+
 .facebook-button img {
     width: 60px;
     height: 60px;
 }
+
 .facebook-button p {
     font-size: 1.5em;
 }
+
 .facebook-button svg path:nth-of-type(1) {
     fill: #00c3e3;
 }

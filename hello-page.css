@@ -1,48 +1,48 @@
 .hello-block {
+    width: 75%;
+    margin: auto;
     display: flex;
-    flex-direction: column;
-    position: absolute;
-    left: 10%;
-    top: 12%;
+    padding: 30px 0 30px 0;
 }
-.hello-block img {
+
+.content {
+    margin-top: 100px;
+}
+
+.content img {
     width: 650px;
 }
-.hello-block h3 {
+
+.content h3 {
     font-size:  2em;
     color: white;
-    margin: 0;
-    padding-left: 55px;
-    padding-bottom: 30px;
+    margin: 10px;
+    padding: 0 0 30px 55px;
+    letter-spacing: 0.3em;
 }
+
 .hello-block p {
     color: white;
     font-size: 1.3em;
-    line-height: 33.852px;
+    line-height: 40px;
     margin: 0;
     padding-left: 55px;
+    letter-spacing: 1px;
+
 }
-.mario {
-    position: absolute;
-    right: 15%;
-    top: 3%;
-}
+
 .nintendo-button {
-    position: absolute;
-    top: 100%;
-    left: 20%;
+    margin: auto;
+    display: block;
 }
-.nintendo-cast {
-    width: 100%;
-    position: absolute;
-    top: 120%;
-}
+
 .nintendo-button:hover {
     cursor: pointer;
     animation-name: move;
     animation-duration: 0.5s;
     animation-fill-mode: forwards;
 }
+
 @keyframes move {
     0% {
         transform: translateY(0);
@@ -51,4 +51,9 @@
     } 100% {
         transform: translateY(0);
     }
+}
+
+.nintendo-cast {
+    width: 100%;
+
 }

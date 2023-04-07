@@ -5,16 +5,19 @@
     margin: auto;
     padding: 60px 0 25px 0;
 }
+
 .games-line {
     border-top: 1px solid lightgray;
     width: 75%;
     height: 2px;
     margin: auto;
 }
+
 .redline-2 {
     border-top: 2px solid #e7000a;
     width: 225px;
 }
+
 .grid-2 {
     width: 75%;
     margin: auto;
@@ -23,46 +26,57 @@
     gap: 30px;
     padding: 30px 0 50px 0;
 }
+
 .game-box {
     text-decoration: none;
     color: black;
 }
+
 .game-box:hover {
     color: #e7000a;
 }
+
 .image-wrapper {
     overflow: hidden;
 }
+
 .game-box img {
     width: 100%;
     transition: transform 0.5s ease;
 }
-.game-box img:hover {
+
+.game-box:hover img {
     transform: scale(1.1);
 }
+
 .game-box h6 {
     font-size: 0.9em;
     margin: 8px 0 20px 0;
     height: 35px;
 }
+
 .game-box p {
     font-size: 0.8em;
     font-weight: bold;
     color: gray;
 }
+
 .game-box span {
     font-size: 0.6em;
     color: gray;
 }
+
 .brand-section {
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid lightgrey;
     padding-bottom: 15px;
 }
+
 .brand-section .right-arrow {
     width: 15px;
 }
+
 .more-games {
     display: flex;
     align-items: center;
@@ -77,29 +91,37 @@
     margin: auto;
     text-decoration: none;
 }
+
 .more-games:hover {
     background-color: white;
     color: #e7000a;
 }
+
 .more-games svg {
     margin-right: 5px;
 }
+
 .more-games svg path:nth-of-type(1) {
     fill: white;
 }
+
 .more-games:hover svg path:nth-of-type(1) {
     fill: #e7000a;
 }
+
 .more-games svg path:nth-of-type(2) {
     fill: #e7000a;
 }
+
 .more-games:hover svg path:nth-of-type(2) {
     fill: white;
 }
+
 .more-nav {
     display: flex;
     justify-content: center;
 }
+
 .schedule {
     font-size: 0.9em;
     padding: 28px;
@@ -109,9 +131,11 @@
     text-decoration: none;
     color: black;
 }
+
 .schedule p:hover {
     opacity: 0.5;
 }
+
 .mobile-games {
     padding: 28px;
     font-weight: bold;
@@ -121,17 +145,19 @@
     text-decoration: none;
     color: black;
 }
+
 .mobile-games p:hover {
     opacity: 0.5;
 }
+
 .schedule .right-arrow {
     width: 15px;
     height: 15px;
     margin-left: 15px;
 }
+
 .mobile-games .right-arrow {
     width: 15px;
     height: 15px;
     margin-left: 15px;
 }
-

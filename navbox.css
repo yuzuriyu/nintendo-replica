@@ -6,6 +6,7 @@
     border: 1px solid lightgray;
     margin-top: 5px;
 }
+
  .navbox {
     width: 100%;
     height: 100%;
@@ -15,14 +16,17 @@
     text-decoration: none;
     color: black;
 }
+
 .navbox:hover {
     color: #e7000a;
 }
+
 .navbox img {
     width: 42px;
     height: 42px;
     margin-left: 15px;
 }
+
 .navbox p {
     margin: 15px;
     font-size: 0.8em;

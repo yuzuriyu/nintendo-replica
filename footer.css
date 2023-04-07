@@ -3,9 +3,11 @@
     height: 100px;
     background-color: #e7000a;
 }
+
 .return-top img {
     width: 110px;
 }
+
 .return-top {
     display: flex;
     width: 75%;
@@ -14,15 +16,18 @@
     align-items: center;
     justify-content: space-between;
 }
+
 .return-top .up-arrow {
     width: 20px;
     border-left: 1px dotted lightgray;
     padding: 20px;
     cursor: pointer;
 }
+
 .return-top .up-arrow:hover {
     opacity: 0.7;
 }
+
 .footer-links {
     display: flex;
     justify-content: space-around;
@@ -30,85 +35,107 @@
     margin: auto;
     height: 350px;
 }
+
 .hardware {
     padding-top: 25px;
 }
+
 .hardware a {
     text-decoration: none;
     color: rgb(128, 128, 128);
     font-size: 0.875em;
 }
+
 .hardware a:hover {
     color: #e7000a;
 }
+
 .hardware ul {
     padding: 0;
 }
+
 .hardware p {
     color: rgb(60, 60, 60);
     border-left: 5px solid lightgray;
     padding-left: 5px;
 }
+
 .gaming {
     padding-top: 25px;
 }
+
 .gaming a {
     text-decoration: none;
     color: rgb(128, 128, 128);
     font-size: 0.875em;
 }
+
 .gaming a:hover {
     color: #e7000a;
 }
+
 .gaming ul {
     padding: 0;
 }
+
 .gaming p {
     color: rgb(60, 60, 60);
     border-left: 5px solid lightgray;
     padding-left: 5px;
 }
+
 .updates {
     padding-top: 25px;
 }
+
 .updates a {
     text-decoration: none;
     color: rgb(128, 128, 128);
     font-size: 0.875em;
 }
+
 .updates a:hover{
     color: #e7000a;
 }
+
 .updates ul {
     padding: 0;
 }
+
 .updates p {
     color: rgb(60, 60, 60);
     border-left: 5px solid lightgray;
     padding-left: 5px;
 }
+
 .support {
     padding-top: 25px;
 }
+
 .support a {
     text-decoration: none;
     color: rgb(128, 128, 128);
     font-size: 0.875em;
 }
+
 .support a:hover {
     color: #e7000a;
 }
+
 .support ul {
     padding: 0%;
 }
+
 .support p {
     color: rgb(60, 60, 60);
      border-left: 5px solid lightgray;
     padding-left: 5px;
 }
+
 .sns-footer {
     padding-top: 25px;
 }
+
 .sns-wrapper {
     display: flex;
     border-top: 1px solid lightgray;
@@ -117,48 +144,60 @@
     text-decoration: none;
     color: black;
 }
+
 .sns-wrapper img {
     width: 50px;
 }
+
 .sns-wrapper p {
     font-size: 0.7em;
     color: rgb(60, 60, 60);
     font-weight: bold;
     margin-left: 10px;
 }
+
 .sns-wrapper p:hover {
     color: #e7000a;
 }
+
 .instagram {
     display: flex;
     padding-right: 20px;
 }
+
 .instagram p {
     color: #c13584;
 }
+
 .usa {
     display: flex;
     font-size: 0.9em;
     margin-bottom: 8px;
 }
+
 .usa p {
     font-weight: 100;
     margin: 0 0 0 5px;
 }
+
 .usa svg path:nth-of-type(1) {
     fill: #c13584;
 }
+
 .japan {
     display: flex;
     font-size: 0.9em;
 }
+
 .japan p {
     font-weight: 100;
     margin: 0 0 0 5px;
 }
+
 .japan svg path:nth-of-type(1) {
     fill: #c13584;
 }
+
 .sites {
     width: 100%;
     display: flex;
@@ -166,12 +205,14 @@
     height: 50px;
     align-items: center;
 }
+
 .credits {
     flex: 1;
     margin-left: 30px;
     font-size: 0.7em;
     color: rgb(60, 60, 60);
 }
+
 .site-box {
     text-decoration: none;
     color: rgb(128, 128, 128);
@@ -179,19 +220,24 @@
     margin-right: 25px;
     padding: 0 10px 0 10px;
 }
+
 .site-box:hover {
     color: rgb(60, 60, 60);
 }
+
 .site-wrapper {
     display: flex;
     align-items: center;
 }
+
 .site-wrapper svg {
     margin-right: 5px;
 }
+
 .site-wrapper svg path:nth-of-type(1) {
     fill: rgb(140, 140, 140);
 }
+
 .global-box {
     text-decoration: none;
     color: rgb(128, 128, 128);
@@ -202,6 +248,7 @@
     display: flex;
     align-items: center;
 }
+
 .global-box:hover {
     color: rgb(60, 60, 60);
 }
