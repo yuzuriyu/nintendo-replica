@@ -29,6 +29,7 @@
 
 .navbox p {
     margin: 15px;
-    font-size: 0.8em;
+    font-size: 0.750em;
+    letter-spacing: 0.1px;
     font-weight: bold;
 }
