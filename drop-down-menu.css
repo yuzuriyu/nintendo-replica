@@ -1,18 +1,22 @@
 .hardware-menu {
     position: absolute;
-    top: 75px;
+    top: 76px;
     left: 0;
     background-color: white;
     width: 100%;
-    height: 410px;
+    height: 390px;
     z-index: 100;
     visibility: hidden;
 }
   
-  .box-1:hover .hardware-menu {
+.box-1:hover .hardware-menu {
     visibility: visible;
 }
 
+.hardware-menu a {
+    text-decoration: none;
+    color: black;
+}
 .hardware-upper {
     width: 75%;
     margin: auto;
@@ -96,5 +100,228 @@
 
 .hardware-lower-right:hover img {
     opacity: 0.7;
+}
+
+.games-menu {
+    position: absolute;
+    top: 76px;
+    left: 0;
+    background-color: white;
+    visibility: none;
+    width: 100%;
+    height: 230px;
+}
+
+.box-2:hover .games-menu {
+    visibility: visible;
+    z-index: 100;
+}
+
+.games-upper {
+    width: 75%;
+    height: 75%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+}
+
+.games-left-section {
+    width: 65%;
+    display: flex;
+    align-items: center;
+    border-right: 1px dotted lightgray;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+}
+
+.games-left-section:hover {
+    color: #e7000a;
+}
+
+.games-left-section:hover img {
+    opacity: 0.7;
+}
+
+.games-icon-section {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+    margin-left: 30px;
+}
+
+.games-icon-section p {
+  margin: 0;
+  padding-top: 5px;
+  font-size: 0.8em;
+}
+
+.games-left-section img {
+    width: 120px;
+    height: 120px;
+    margin-right: 2px;
+}
+
+.games-left-section p {
+    font-size: 0.7em;
+    text-align: center;
+}
+
+.games-right-section {
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    text-decoration: none;
+    color: black;
+}
+
+.games-right-section:hover {
+    color: #e7000a;
+}
+
+.games-right-section:hover img {
+    opacity: 0.7;
+}
+
+.games-right-section img {
+    width: 60px;
+    height: 120px;
+}
+
+.games-right-section p {
+    font-size: 0.7em;
+    text-align: center;
+}
+
+.games-lower {
+    width: 75%;
+    height: 25%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+.games-lower p {
+    margin: 0;
+}
+
+.release-schedule {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+    text-decoration: none;
+    color: black;
+}
+
+.release-schedule:hover {
+    color: #e7000a;
+}
+
+.release-schedule p {
+    font-size: 0.875em;
+}
+
+.release-schedule .right-arrow {
+    width: 12px;
+    margin-right: 5px;
+}
+
+.parental-control {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+    text-decoration: none;
+    color: black;
+}
+
+.parental-control:hover {
+    color: #e7000a;
+}
+
+.parental-control p {
+    font-size: 0.875em;
+}
+
+.parental-control .right-arrow {
+    width: 12px;
+    margin-right: 5px;
+}
+
+.game-purchases {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+.game-purchases:hover {
+    color: #e7000a;
+}
+
+.game-purchases p {
+    font-size: 0.875em;
+}
+
+.game-purchases .right-arrow {
+    width: 12px;
+    margin-right: 5px;
+}
+
+.search-drop-down {
+    position: absolute;
+    top: 76px;
+    left: 0;
+    width: 100%;
+    height: 125px;
+    z-index: 90;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    visibility: hidden;
+}
+
+.search-box:hover .search-drop-down {
+    visibility: visible;
+}
+
+.search-bar {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid lightgray;
+}
+
+.search-bar img {
+    width: 15px;
+    margin: 0 5px 0 30px
+}
+
+.search-bar input {
+    width: 700px;
+    height: 50px;
+    border: none;
+    outline: none;
+}
+
+.search-bar input::placeholder {
+    font-size: 0.9em;
+}
+
+.search-bar button {
+    margin: 0 10px 0 10px;
+    border: none;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+.search-bar button:hover {
+    background-color: #e7000a;
+    cursor: pointer;
 }
 

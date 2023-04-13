@@ -62,9 +62,9 @@ header {
     height: 98%;
     border-left: solid 1px lightgray;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    position: relative;
     color: black;
 }
 
@@ -75,12 +75,13 @@ header {
 .search-box p {
     font-size: 0.8em;
     margin: 0;
-    position: absolute;
-    bottom: 10px;
 }
 
-.search-box img {
-    width: 22px;
-    margin-bottom: 12px;
-    cursor: pointer;
+.search-box svg {
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.search-box:hover svg path {
+    stroke: #e7000a;
 }
